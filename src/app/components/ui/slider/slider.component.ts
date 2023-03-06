@@ -9,21 +9,21 @@ import { Islider } from 'src/app/models/slider';
 export class SliderComponent {
   slides: Islider[] = [
     {
-      url: '../../../../assets/images/Atari2600.jpg',
+      url: 'assets/images/Atari2600.jpg',
       title: 'Atari 2600',
       description: 'Old but gold',
       price: 199,
       link: '/product/15',
     },
     {
-      url: '../../../../assets/images/xbox360.jpg',
+      url: 'assets/images/xbox360.jpg',
       title: 'Xbox 360',
       description: 'Only for plaing Call of duty',
       price: 199,
       link: '/product/8',
     },
     {
-      url: '../../../../assets/images/ps5.png',
+      url: 'assets/images/ps5.png',
       title: 'PlayStation 5',
       description: 'Console for FIFA by FIFA',
       price: 499,

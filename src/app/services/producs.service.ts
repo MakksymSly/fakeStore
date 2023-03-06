@@ -7,7 +7,8 @@ import { EMPTY } from 'rxjs';
   providedIn: 'root',
 })
 export class ProducsService {
-  url: string = 'http://localhost:3000/products';
+  url: string =
+    'https://my-json-server.typicode.com/makksymSly/fakeStoreAPI/products';
   // urlBasket: string = 'http://localhost:3000/basket';
   constructor(private http: HttpClient) {}
 
