@@ -3,7 +3,7 @@
 Click here for live demo <a href="https://makksymsly.github.io/fakeStore/">FakeStore</a>
 # About the project:
 <img src="https://iili.io/HWhQdrv.png"/>
-FakeStore is my process of learning the Angular framework. It is still under development but already has working functionality that I will add while learning Angular
+FakeStore is my process of learning the Angular framework. It is still under development but already has working functionality that I will expand while learning Angular
 
 
 <h3>The common functionalities are:</h3>
@@ -11,7 +11,7 @@ FakeStore is my process of learning the Angular framework. It is still under dev
 <li>The user can see all the products</li>
 <li>The user can see detailed description of the product</li>
 <li>The user can add the products to cart (it stays in localstorage)</li>
-<li>The user can see the card</li>
+<li>The user can see the cart</li>
 <li>The cart will calculate the total cost of the items in it</li>
 <li>The user can confirm the purchase if there is at least one product in the cart, but it will be sent to the void!  </li>
 </ul>
