@@ -1,0 +1,40 @@
+.basket{
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  .basket-container{
+    width: 80%;
+    .card{
+      padding: 20px;
+      min-height: 200px;
+      margin-bottom: 10px;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  .basket-price{
+
+    width: 20%;
+    height: fit-content;
+    .basket-price__button{
+      background: #1df2327a;
+    }
+  }
+}
+
+
+@media screen and (max-width:750px) {
+  .basket{
+    flex-direction: column;
+    .basket-container{
+      .card{
+        flex-direction: column;
+      }
+      width: 100%;
+    }
+    .basket-price{
+      width: 100%;
+    }
+  }
+}

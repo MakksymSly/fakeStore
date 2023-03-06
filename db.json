@@ -1,0 +1,324 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "quantity":0,
+      "title": "Xbox Series S",
+      "price": 300,
+      "image": "assets/images/xboxss.jpg",
+      "configure": {
+        "company": "Microsoft",
+        "storage": "500GB",
+        "year": 2021,
+        "processor": "Zen 2",
+        "gpu": "Lockhart",
+        "ram": "10Gb GDDR6",
+        "wireless_communication": "Wi-Fi"
+      }
+    },
+    {
+      "id": 2,
+      "quantity":0,
+      "title": "PlayStation 5",
+      "price": 499,
+      "image": "assets/images/ps5.png",
+      "configure": {
+        "company": "Sony",
+        "storage": "825GB",
+        "year": 2020,
+        "processor": "AMD Zen 2",
+        "gpu": "AMD RDNA 2",
+        "ram": "16GB GDDR6",
+        "wireless_communication": "Wi-Fi 6"
+      }
+    },
+    {
+      "id": 3,
+      "quantity":0,
+      "title": "Nintendo Switch",
+      "price": 299,
+      "image": "assets/images/switch.jpg",
+      "configure": {
+        "company": "Nintendo",
+        "storage": "32GB",
+        "year": 2017,
+        "processor": "Nvidia Tegra X1",
+        "gpu": "Nvidia Maxwell",
+        "ram": "4GB LPDDR4",
+        "wireless_communication": "Wi-Fi"
+      }
+    },
+    {
+      "id": 4,
+      "quantity":0,
+      "title": "Xbox Series X",
+      "price": 499,
+      "image": "assets/images/xboxsx.jpg",
+      "configure": {
+        "company": "Microsoft",
+        "storage": "1TB",
+        "year": 2020,
+        "processor": "Zen 2",
+        "gpu": "RDNA 2",
+        "ram": "16GB GDDR6",
+        "wireless_communication": "Wi-Fi 6"
+      }
+    },
+    {
+      "id": 5,
+      "quantity":0,
+      "title": "PlayStation 4",
+      "price": 399,
+      "image": "assets/images/ps4.jpg",
+      "configure": {
+        "company": "Sony",
+        "storage": "500GB",
+        "year": 2013,
+        "processor": "AMD Jaguar",
+        "gpu": "AMD Radeon",
+        "ram": "8GB GDDR5",
+        "wireless_communication": "Wi-Fi"
+      }
+    },
+    {
+      "id": 6,
+      "quantity":0,
+      "title": "Xbox One S",
+      "price": 299,
+      "image": "assets/images/xboxos.jpg",
+      "configure": {
+        "company": "Microsoft",
+        "storage": "1TB",
+        "year": 2016,
+        "processor": "AMD Jaguar",
+        "gpu": "AMD Radeon",
+        "ram": "8GB DDR3",
+        "wireless_communication": "Wi-Fi"
+      }
+    },
+    {
+      "id": 7,
+      "quantity":0,
+      "title": "PlayStation 3",
+      "price": 599,
+      "image": "assets/images/ps3.jpg",
+      "configure": {
+        "company": "Sony",
+        "storage": "80GB",
+        "year": 2006,
+        "processor": "IBM Cell",
+        "gpu": "Nvidia RSX",
+        "ram": "256MB XDR",
+        "wireless_communication": "Wi-Fi"
+      }
+    },
+    {
+      "id": 8,
+      "quantity":0,
+      "title": "Xbox 360",
+      "price": 199,
+      "image": "assets/images/xbox360.jpg",
+      "configure": {
+        "company": "Microsoft",
+        "storage": "250GB",
+        "year": 2005,
+        "processor": "IBM PowerPC",
+        "gpu": "ATI Xenos",
+        "ram": "512MB GDDR3",
+        "wireless_communication": "Wi-Fi"
+      }
+    },
+    {
+      "id": 9,
+      "quantity":0,
+      "title": "Nintendo GameCube",
+      "price": 149,
+      "image": "assets/images/gamecube.jpg",
+      "configure": {
+        "company": "Nintendo",
+        "storage": "1.5GB",
+        "year": 2001,
+        "processor": "IBM PowerPC",
+        "gpu": "ATI Flipper",
+        "ram": "40MB",
+        "wireless_communication": "None"
+      }
+    },
+    {
+      "id": 10,
+      "quantity":0,
+      "title": "PlayStation 2",
+      "price": 299,
+      "image": "assets/images/ps2.jpg",
+      "configure": {
+        "company": "Sony",
+        "storage": "40GB",
+        "year": 2000,
+        "processor": "Emotion Engine",
+        "gpu": "Graphics Synthesizer",
+        "ram": "32MB RDRAM",
+        "wireless_communication": "None"
+      }
+    },
+    {
+      "id": 11,
+      "quantity":0,
+      "title": "Xbox One X",
+      "price": 499,
+      "image": "assets/images/xboxox.jpg",
+      "configure": {
+        "company": "Microsoft",
+        "storage": "1TB",
+        "year": 2017,
+        "processor": "AMD Jaguar",
+        "gpu": "AMD Radeon",
+        "ram": "12GB GDDR5",
+        "wireless_communication": "Wi-Fi"
+      }
+    },
+    {
+      "id": 12,
+      "quantity":0,
+      "title": "Nintendo Wii",
+      "price": 249,
+      "image": "assets/images/Wii.png",
+      "configure": {
+        "company": "Nintendo",
+        "storage": "512MB",
+        "year": 2006,
+        "processor": "IBM PowerPC",
+        "gpu": "ATI Hollywood",
+        "ram": "88MB",
+        "wireless_communication": "Wi-Fi"
+      }
+    },
+    {
+      "id": 13,
+      "quantity":0,
+      "title": "PlayStation",
+      "price": 299,
+      "image": "assets/images/ps1.jpg",
+      "configure": {
+        "company": "Sony",
+        "storage": "None",
+        "year": 1994,
+        "processor": "R3000",
+        "gpu": "None",
+        "ram": "2MB",
+        "wireless_communication": "None"
+      }
+    },
+    {
+      "id": 14,
+      "quantity":0,
+      "title": "Sega Dreamcast",
+      "price": 199,
+      "image": "assets/images/dreamcast.png",
+      "configure": {
+        "company": "Sega",
+        "storage": "1.2GB",
+        "year": 1998,
+        "processor": "Hitachi SH4",
+        "gpu": "PowerVR2",
+        "ram": "16MB",
+        "wireless_communication": "None"
+      }
+    },
+    {
+      "id": 15,
+      "quantity":0,
+      "title": "Atari 2600",
+      "price": 199,
+      "image": "assets/images/Atari2600.jpg",
+      "configure": {
+        "company": "Atari",
+        "storage": "None",
+        "year": 1977,
+        "processor": "MOS 6507",
+        "gpu": "None",
+        "ram": "128 bytes",
+        "wireless_communication": "None"
+      }
+    },
+    {
+      "id": 16,
+      "quantity":0,
+      "title": "Nintendo Switch",
+      "price": 299,
+      "image": "assets/images/switch.jpg",
+      "configure": {
+        "company": "Nintendo",
+        "storage": "32GB",
+        "year": 2017,
+        "processor": "Nvidia Tegra",
+        "gpu": "Nvidia Tegra",
+        "ram": "4GB LPDDR4",
+        "wireless_communication": "Wi-Fi"
+      }
+    },
+    {
+      "id": 17,
+      "quantity":0,
+      "title": "PlayStation 4 Pro",
+      "price": 399,
+      "image": "assets/images/ps4pro.jpg",
+      "configure": {
+        "company": "Sony",
+        "storage": "1TB",
+        "year": 2016,
+        "processor": "AMD Jaguar",
+        "gpu": "AMD Radeon",
+        "ram": "8GB GDDR5",
+        "wireless_communication": "Wi-Fi"
+      }
+    },
+    {
+      "id": 18,
+      "quantity":0,
+      "title": "Xbox Series X",
+      "price": 499,
+      "image": "assets/images/xboxsx.jpg",
+      "configure": {
+        "company": "Microsoft",
+        "storage": "1TB",
+        "year": 2020,
+        "processor": "AMD Zen 2",
+        "gpu": "AMD RDNA 2",
+        "ram": "16GB GDDR6",
+        "wireless_communication": "Wi-Fi"
+      }
+    },
+    {
+      "id": 19,
+      "quantity":0,
+      "title": "PlayStation 5",
+      "price": 499,
+      "image": "assets/images/ps5.png",
+      "configure": {
+        "company": "Sony",
+        "storage": "825GB",
+        "year": 2020,
+        "processor": "AMD Zen 2",
+        "gpu": "AMD RDNA 2",
+        "ram": "16GB GDDR6",
+        "wireless_communication": "Wi-Fi"
+      }
+    },
+    {
+      "id": 20,
+      "quantity":0,
+      "title": "Nintendo 64",
+      "price": 199,
+      "image": "assets/images/nintendo64.jpg",
+      "configure": {
+        "company": "Nintendo",
+        "storage": "32MB",
+        "year": 1996,
+        "processor": "MIPS R4300i",
+        "gpu": "Reality Coprocessor",
+        "ram": "4MB",
+        "wireless_communication": "None"
+      }
+    }
+  ]
+}

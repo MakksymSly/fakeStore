@@ -1,0 +1,50 @@
+<div class="container">
+  <mat-card class="card" *ngFor="let product of products">
+    <mat-card-header>
+      <mat-card-title class="card__title">{{ product.title }}</mat-card-title>
+    </mat-card-header>
+    <div class="image">
+      <img
+        draggable="false"
+        mat-card-image
+        src="{{ product.image }}"
+        alt="{{ product.title }}"
+      />
+    </div>
+    <mat-card-content>
+      <div
+        style="
+          width: 100%;
+          margin-top: 10px;
+          padding-top: 15px;
+          border-top: 1px solid rgba(210, 205, 205, 0.529); ;
+        "
+      >
+        <p>Price: {{ product.price | currency }}</p>
+        <p>Year: {{ product.configure.year }}</p>
+        <p>Company: {{ product.configure.company }}</p>
+      </div>
+    </mat-card-content>
+    <div class="card__actions">
+      <button
+        mat-flat-button
+        class="card__actions__button"
+        color="primary"
+        mat-button
+        (click)="addToBasket(product)"
+        type="button"
+      >
+        Add<mat-icon>add_shopping_cart</mat-icon>
+      </button>
+      <button
+        mat-flat-button
+        class="card__actions__button"
+        color="primary"
+        mat-button
+        [routerLink]="['/product', product.id]"
+      >
+        More info<mat-icon>info</mat-icon>
+      </button>
+    </div>
+  </mat-card>
+</div>

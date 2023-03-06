@@ -1,0 +1,42 @@
+<div class="product">
+  <div class="product__image">
+    <img draggable="false" src="{{ product.image }}" alt="product image" />
+  </div>
+  <mat-card class="product__description">
+    <mat-card-header>
+      <mat-card-title class="product__description__title">{{
+        product.title
+      }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="product__description__content">
+      <p>Price: {{ product.price | currency }}</p>
+      <p>Year: {{ product.configure.year }}</p>
+      <p>Company: {{ product.configure.company }}</p>
+      <p>Memory: {{ product.configure.storage }}</p>
+      <p>Processor: {{ product.configure.processor }}</p>
+      <p>GPU: {{ product.configure.gpu }}</p>
+      <p>RAM: {{ product.configure.ram }}</p>
+      <p>
+        Wireless Communication: {{ product.configure.wireless_communication }}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button
+        class="product__description__button"
+        mat-flat-button
+        routerLink="/products"
+      >
+        <mat-icon>arrow_back</mat-icon>Back
+      </button>
+      <button
+        class="product__description__button"
+        mat-flat-button
+        color="primary"
+        type="button"
+        (click)="addToBasket(product)"
+      >
+        Add to cart<mat-icon>add_shopping_cart</mat-icon>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>

@@ -1,0 +1,35 @@
+<div class="slider">
+  <div>
+    <div (click)="goToPrevious()" class="leftArrow">
+      <mat-icon style="color: black">arrow_back_ios</mat-icon>
+    </div>
+    <div (click)="goToNext()" class="rightArrow">
+      <mat-icon style="color: black">arrow_forward_ios</mat-icon>
+    </div>
+  </div>
+  <div class="slider__images">
+    <div>
+      <p style="font-weight: 700">{{ getCurrentSlideTitle() }}</p>
+      <span>{{ getCurrentSlideDescription() }}</span>
+      <p>price:{{ getCurrentSlidePrice() | currency }}</p>
+      <button
+        mat-flat-button
+        color="primary"
+        routerLink="{{ getCurrentSlideLink() }}"
+      >
+        <mat-icon>info</mat-icon>Show more
+      </button>
+    </div>
+
+    <img draggable="false" class="slide" src="{{ getCurrentSlideUrl() }}" />
+  </div>
+  <div class="dotsContainer">
+    <div
+      *ngFor="let slide of slides; let slideIndex = index"
+      class="dot"
+      (click)="goToSlide(slideIndex)"
+    >
+      ●
+    </div>
+  </div>
+</div>

@@ -1,0 +1,69 @@
+<div class="basket">
+  <div class="basket-container">
+    <mat-card class="card" *ngFor="let item of basket">
+      <mat-card-header
+        style="display: flex; align-items: center; justify-content: center"
+      >
+        <mat-card-title class="card__title">{{ item.title }}</mat-card-title>
+      </mat-card-header>
+      <img
+        style="width: 200px"
+        draggable="false"
+        mat-card-image
+        src="{{ item.image }}"
+        alt="{{ item.title }}"
+      />
+      <mat-card-content>
+        <div
+          style="
+            width: 100%;
+            margin-top: 10px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(210, 205, 205, 0.529); ;
+          "
+        >
+          <p style="display: 'flex'; align-items: center">
+            Quantity:<mat-icon (click)="minusItemQuantity(item)"
+              >remove_circle_outline</mat-icon
+            >
+            <span style="font-size: 22px">{{ item.quantity }}</span>
+            <mat-icon (click)="plusItemQuantity(item)">control_point</mat-icon>
+          </p>
+          <p>Price: {{ item.price | currency }}</p>
+          <p>Year: {{ item.configure.year }}</p>
+          <p>Company: {{ item.configure.company }}</p>
+        </div>
+      </mat-card-content>
+      <div class="card__actions">
+        <button
+          mat-flat-button
+          class="card__actions__button"
+          color="primary"
+          mat-button
+          type="button"
+          (click)="removeItem(item.id)"
+        >
+          remove<mat-icon>delete</mat-icon>
+        </button>
+      </div>
+    </mat-card>
+  </div>
+  <div class="basket-price">
+    <mat-card>
+      <mat-card-title>Price ditails</mat-card-title>
+      <mat-card-subtitle>
+        <p>Total price: {{ price | currency }}</p>
+        <p>discount: 0</p>
+        <p>Delivery Charges: 0</p>
+      </mat-card-subtitle>
+      <button
+        mat-flat-button
+        class="basket-price__button"
+        [disabled]="!basket.length"
+        (click)="openDialog()"
+      >
+        {{ basket.length ? "Submit" : "No items in basket" }}
+      </button>
+    </mat-card>
+  </div>
+</div>

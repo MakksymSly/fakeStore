@@ -1,0 +1,133 @@
+.slide {
+  user-select: none;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.rightArrow {
+  user-select: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 45px;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+.slider__images{
+  display: flex;
+  justify-content: space-evenly;
+  div{
+    user-select: none;
+    max-width: 500px;
+    min-width: 500px;
+    flex-direction: column;
+    span{
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #673AB7;
+    }
+    p{
+      text-transform: capitalize;
+      margin-bottom: 20px;
+    }
+    justify-content: center;
+    display: flex;
+    font-size: 32px;
+  }
+  img{
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 400px;
+    min-height: 400px;
+  }
+}
+.leftArrow {
+  user-select: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 45px;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.slider {
+  user-select: none;
+  background: #ffffff;
+  position: relative;
+  height: fit-content;
+}
+
+.dotsContainer {
+  user-select: none;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  user-select: none;
+  margin: 0 3px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@media screen and (max-width:1100px) {
+  .slider__images{
+    img{
+      max-width: 250px;
+      min-width: 250px;
+      max-height: 250px;
+      min-height: 250px;
+    }
+  }
+}
+@media screen and (max-width:960px) {
+  .slider__images{
+    div{
+      font-size: 22px;
+    }
+  }
+  .leftArrow{
+    display: none;
+  }
+  .rightArrow{
+    display: none;
+  }
+}
+@media screen and (max-width:770px) {
+  .slider__images{
+    img{
+      max-width: 150px;
+      min-width: 150px;
+      max-height: 150px;
+      min-height: 150px;
+    }
+    div{
+      max-width: 250px;
+      min-width:250px;
+    }
+  }
+}
+@media screen and (max-width:320px) {
+  .slider__images{
+    padding: 20px;
+    img{
+      max-width: 150px;
+      min-width: 150px;
+      max-height: 150px;
+      min-height: 150px;
+    }
+    div{
+      max-width: 150px;
+      min-width:150px;
+    }
+  }
+}
