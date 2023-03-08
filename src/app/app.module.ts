@@ -20,6 +20,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { DialogBoxComponent } from './components/ui/dialog-box/dialog-box.component';
 import { SliderComponent } from './components/ui/slider/slider.component';
+import { TopProductsComponent } from './components/top-products/top-products.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { SliderComponent } from './components/ui/slider/slider.component';
     ProductDetailsComponent,
     DialogBoxComponent,
     SliderComponent,
+    TopProductsComponent,
   ],
   imports: [
     BrowserModule,

@@ -62,3 +62,16 @@
   }
 
 }
+@media screen and (max-width: 600px) {
+  .product{
+    position: relative;
+    padding-top: 0;
+  }
+  .product__image{
+    img{
+      min-width: 600px;
+      max-height: 500px;
+    }
+
+  }
+}

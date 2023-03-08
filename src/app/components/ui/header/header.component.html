@@ -12,4 +12,12 @@
     </button>
     <button mat-flat-button color="primary" routerLink="basket">basket</button>
   </div>
+  <button (click)="showMenu()" class="navigation-menu__button"><mat-icon>menu</mat-icon></button>
 </mat-toolbar>
+<div [ngStyle]="{'height': view ? '100px' : '0px'}" class="navigation-menu__drop-list">
+  <ul>
+  <li><button (click)="showMenu()" class="navigation-menu__drop-list-button" mat-flat-button color="primary" routerLink="">main</button></li>
+  <li><button (click)="showMenu()" class="navigation-menu__drop-list-button" mat-flat-button color="primary" routerLink="products">products</button></li>
+  <li><button (click)="showMenu()" class="navigation-menu__drop-list-button" mat-flat-button color="primary" routerLink="basket">basket</button></li>
+</ul>
+</div>

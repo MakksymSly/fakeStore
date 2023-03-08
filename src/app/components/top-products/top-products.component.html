@@ -1,0 +1,15 @@
+<div class="container">
+<div *ngFor="let item of topProducts">
+  <div class="product">
+    <h2>{{item.title}}</h2>
+    <img class="product-image" src="{{item.url}}" alt="product-image">
+    <p class="product-description">{{item.description}}!</p>
+    <p>Price: {{item.price | currency}}</p>
+    <div class="product-buttons">
+      <button mat-flat-button color="primary">Add to cart</button>
+      <button mat-flat-button color="primary"> More info</button>
+    </div>
+
+  </div>
+</div>
+</div>
